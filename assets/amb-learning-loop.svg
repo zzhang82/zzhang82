@@ -23,7 +23,7 @@
     .card-title { font-size: 13px; font-weight: 700; }
     .card-sub { font-size: 11px; fill: #94a3b8; }
     .step-badge { font-size: 10px; font-weight: 700; fill: #64748b; letter-spacing: 0.8px; }
-    .conn-line { stroke: #334155; stroke-width: 2; stroke-dasharray: 6 6; }
+    .conn-line { fill: none; stroke: #334155; stroke-width: 2; stroke-dasharray: 6 6; }
     .loop-text { font-size: 11px; fill: #64748b; font-weight: 500; }
     .card-bg-standard { fill: url(#cardGrad); stroke-width: 1.8; }
     .card-bg-highlight { fill: url(#ambGlow); stroke: #38bdf8; stroke-width: 2.2; }
@@ -62,7 +62,7 @@
   <text x="32" y="52" class="header-sub">Reviewed experience preserved into durable rules &amp; recalled across sessions</text>
 
   <!-- Connecting dashed line -->
-  <path d="M 125 132 H 875" class="conn-line" />
+  <path d="M 125 132 H 875" fill="none" class="conn-line" />
 
   <!-- Box 1: OBSERVATION / INCIDENT -->
   <g>
@@ -103,7 +103,7 @@
   </g>
 
   <!-- Return Loop Path -->
-  <path d="M 860 188 C 860 236 125 236 125 188" class="conn-line" stroke-opacity="0.5" />
+  <path d="M 860 188 C 860 236 125 236 125 188" fill="none" class="conn-line" stroke-opacity="0.5" />
   <text x="500" y="240" text-anchor="middle" class="loop-text">
     new session begins  &#8594;  targeted recall first  &#8594;  fewer repeated failures
   </text>
@@ -111,14 +111,14 @@
   <!-- Animated Moving Signal Packet -->
   <circle r="7" class="motion-element signal-color" filter="url(#glow)">
     <animateMotion dur="8s" repeatCount="indefinite"
-      path="M 125 132 H 355 H 602 H 860 C 860 236 125 236 125 188 Z"
+      path="M 125 132 H 355 H 602 H 860 V 188 C 860 236 125 236 125 188 V 132 Z"
       keyTimes="0; 0.22; 0.48; 0.72; 1"
       keyPoints="0; 0.25; 0.52; 0.75; 1"
       calcMode="linear" />
   </circle>
   <circle r="3" fill="#ffffff" class="motion-element">
     <animateMotion dur="8s" repeatCount="indefinite"
-      path="M 125 132 H 355 H 602 H 860 C 860 236 125 236 125 188 Z"
+      path="M 125 132 H 355 H 602 H 860 V 188 C 860 236 125 236 125 188 V 132 Z"
       keyTimes="0; 0.22; 0.48; 0.72; 1"
       keyPoints="0; 0.25; 0.52; 0.75; 1"
       calcMode="linear" />
