@@ -1,9 +1,9 @@
 <!-- Animated Terminal Hero -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-hero-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-hero-light.svg" />
-    <img alt="Frank Zhang — Terminal" src="./assets/terminal-hero-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-hero-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-hero-light.svg?v=2" />
+    <img alt="Frank Zhang — Terminal" src="./assets/terminal-hero-dark.svg?v=2" width="100%" />
   </picture>
 </p>
 
@@ -21,9 +21,9 @@
 <!-- Visual Project Showcase -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-showcase-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/project-showcase-light.svg" />
-    <img alt="Selected Systems Showcase" src="./assets/project-showcase-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-showcase-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/project-showcase-light.svg?v=2" />
+    <img alt="Selected Systems Showcase" src="./assets/project-showcase-dark.svg?v=2" width="100%" />
   </picture>
 </p>
 
@@ -44,9 +44,9 @@
 <p align="center">
   <a href="https://github.com/zzhang82/Agent-Memory-Bridge">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/amb-learning-loop-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/amb-learning-loop-light.svg" />
-      <img alt="AMB Governed Memory Loop" src="./assets/amb-learning-loop.svg" width="100%" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/amb-learning-loop-dark.svg?v=2" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/amb-learning-loop-light.svg?v=2" />
+      <img alt="AMB Governed Memory Loop" src="./assets/amb-learning-loop.svg?v=2" width="100%" />
     </picture>
   </a>
 </p>
